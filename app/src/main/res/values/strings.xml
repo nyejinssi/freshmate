@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">freshMate</string>
+
+    <string name="nav_todo">Todo</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_fridge">Fridge</string>
+    <string name="nav_out">Out</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="default_web_client_id">417110530060-pkvqqjdf0n051m38snba6shm0t8cpu4p.apps.googleusercontent.com</string>
+    <string name="nav_hoe">Home</string>
+    <string name="nav_notifications">Notifications</string>
+</resources>

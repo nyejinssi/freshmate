@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.gojingamnae.freshmate.ui.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_todo"
+        android:name="com.gojingamnae.freshmate.ui.todo.TodoFragment"
+        android:label="@string/nav_todo"
+        tools:layout="@layout/fragment_todo" />
+
+    <fragment
+        android:id="@+id/navigation_fridge"
+        android:name="com.gojingamnae.freshmate.ui.fridge.FridgeFragment"
+        android:label="@string/nav_fridge"
+        tools:layout="@layout/fragment_fridge" />
+
+    <fragment
+        android:id="@+id/navigation_out"
+        android:name="com.gojingamnae.freshmate.ui.out.OutFragment"
+        android:label="@string/nav_out"
+        tools:layout="@layout/fragment_out" />
+
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.gojingamnae.freshmate.ui.calendar.CalendarFragment"
+        android:label="@string/nav_calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+</navigation>

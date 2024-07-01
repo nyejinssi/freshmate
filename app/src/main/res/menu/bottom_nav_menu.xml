@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_todo"
+        android:icon="@drawable/nav_todo"
+        android:title="@string/nav_todo" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/nav_home"
+        android:title="@string/nav_home" />
+
+    <item
+        android:id="@+id/navigation_fridge"
+        android:icon="@drawable/nav_fri"
+        android:title="@string/nav_fridge" />
+
+    <item android:id="@+id/navigation_out"
+        android:icon="@drawable/nav_out"
+        android:title="@string/nav_out"/>
+
+    <item android:id="@+id/navigation_calendar"
+        android:icon="@drawable/nav_calendar"
+        android:title="@string/nav_calendar"/>
+
+</menu>
